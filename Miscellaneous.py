@@ -5,10 +5,10 @@ for i in range(100,-1,-1):
         print("Damn, we're out of beer!")
         print('Remember kids, alcohol is bad')
     else:
-        print(f"{n} bottles of beer on the wall.")
-        print(f"{n} bottles of beer.")
+        print(f"{i} bottles of beer on the wall.")
+        print(f"{i} bottles of beer.")
         print("Take one down, pass it around,")
-        print(f"{n-1} bottles of beer on the wall\n")
+        print(f"{i-1} bottles of beer on the wall\n")
 #Even or odd
 def even_or_odd(n):
     return 'EOvdedn'[n%2::2]
@@ -36,3 +36,4 @@ def and2(x, y):
     return nor(nor(x,x),nor(y,y))
 def or2(x, y):
     return nor(nor(x,y),nor(x,y))
+
